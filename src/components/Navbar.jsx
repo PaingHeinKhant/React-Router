@@ -11,9 +11,10 @@ const Navbar = () => {
     }
 
   return (
-    <nav>
+    <nav className='nav-link'>
         <NavLink style={navActiveLink} to='/'>Home</NavLink>
         <NavLink style={navActiveLink} to='/about'>About</NavLink>
+        <NavLink style={navActiveLink} to='/products'>Products</NavLink>
     </nav>
   )
 }
